@@ -71,7 +71,7 @@ export default function Home() {
             <Image
               alt="Foto do Hiago Rams"
               src="/hiago-hero.jpeg"
-              className="md:self-center"
+              className="rounded-md md:self-center"
               width={378}
               height={578}
               priority
