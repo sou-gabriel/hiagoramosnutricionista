@@ -69,7 +69,7 @@ export default function Home() {
             </div>
 
             <Image
-              alt="Foto do Hiago Rams"
+              alt="Foto do nutricionista Hiago Ramos em uma de suas salas de atendimento sentado de frente para um computador."
               src="/hiago-hero.jpeg"
               className="rounded-md md:self-center"
               width={378}
@@ -82,7 +82,7 @@ export default function Home() {
         <section id="about" className="px-4 py-20">
           <div className="flex flex-col-reverse items-stretch max-w-5xl gap-12 mx-auto text-center md:flex-row md:items-center md:justify-between md:text-left">
             <Image
-              alt="Foto do Hiago Ramos"
+              alt="Foto nutricionista Hiago Ramos em uma de suas salas de atendimento."
               src="/hiago.jpeg"
               width={358}
               height={358}
