@@ -24,11 +24,11 @@ export default function Home() {
       </Head>
 
       <main className={montserrat.className}>
-        <section className="pt-12 text-white bg-black px-9 md:h-[800px]">
+        <section className="bg-black px-9 pt-12 text-white md:h-[800px]">
           <div className="relative flex flex-col items-center gap-14 md:mx-auto md:h-full md:max-w-[1060px] md:flex-row md:items-start md:justify-between">
-            <div className="flex flex-col text-center self-center md:max-w-[504px] md:text-left">
+            <div className="flex flex-col self-center text-center md:max-w-[504px] md:text-left">
               <h1
-                className={`${monteCarlo.className} md:absolute md:top-0 mb-12 text-2xl md:mb-[84px]`}
+                className={`${monteCarlo.className} mb-12 text-2xl md:absolute md:top-0 md:mb-[84px]`}
               >
                 Hiago Ramos
               </h1>
@@ -70,8 +70,8 @@ export default function Home() {
 
             <Image
               alt="Foto do Hiago Rams"
-              src="/hiagoramos-hero.svg"
-              className="md:self-end"
+              src="/hiago-hero.jpeg"
+              className="md:self-center"
               width={378}
               height={578}
               priority
