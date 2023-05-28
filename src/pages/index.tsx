@@ -165,6 +165,7 @@ export default function Home() {
             <a
               href="https://www.instagram.com/gbrnogueira/"
               rel="nofollow"
+              target="_blank"
               className="font-bold hover:underline"
             >
               Gabriel Ramos
