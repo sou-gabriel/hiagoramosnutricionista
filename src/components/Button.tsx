@@ -1,15 +1,27 @@
+import clsx from "clsx";
 import { Slot } from "@radix-ui/react-slot";
 import { ButtonHTMLAttributes } from "react";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
-  asChild: boolean;
+  variant?: "primary" | "secondary";
+  asChild?: boolean;
 };
 
-export function Button({ asChild, ...props }: ButtonProps) {
+export function Button({
+  variant = "primary",
+  asChild = false,
+  ...props
+}: ButtonProps) {
   const Comp = asChild ? Slot : "button";
   return (
     <Comp
-      className="block px-8 py-4 text-base font-bold text-black uppercase bg-white rounded-lg w-full max-w-[277px]"
+      className={clsx(
+        "flex w-full max-w-[316px] border border-transparent transition items-center justify-center rounded-lg py-4 text-base font-bold uppercase",
+        {
+          "bg-white shadow-xl text-black px-8 hover:bg-black hover:text-white hover:border-white": variant === "primary",
+          "bg-black text-white hover:text-black hover:bg-white hover:border-black": variant === "secondary",
+        }
+      )}
       {...props}
     />
   );
