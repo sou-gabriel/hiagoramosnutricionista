@@ -80,13 +80,13 @@ export default function Home() {
         </section>
 
         <section id="about" className="px-4 py-20">
-          <div className="flex flex-col-reverse items-stretch max-w-5xl gap-12 mx-auto text-center md:flex-row md:items-center md:justify-between md:text-left">
+          <div className="mx-auto flex max-w-5xl flex-col-reverse items-stretch gap-12 text-center md:flex-row md:items-center md:justify-between md:text-left">
             <Image
               alt="Foto nutricionista Hiago Ramos em uma de suas salas de atendimento."
               src="/hiago.jpeg"
               width={358}
               height={358}
-              className="self-center object-none object-right mb-8 rounded-md"
+              className="mb-8 self-center rounded-md object-none object-right"
             />
 
             <div className="md:flex-[2]">
@@ -99,23 +99,24 @@ export default function Home() {
               </strong>
               <p className="mb-6 text-sm leading-[22.4px] opacity-80">
                 <Balancer>
-                  Hiago Ramos é um nutricionista altamente qualificado e
-                  apaixonado por promover hábitos alimentares saudáveis e
-                  equilibrados em seus pacientes. Com anos de experiência na
-                  área, Hiago acredita que a nutrição é fundamental para uma
-                  vida saudável e busca constantemente se manter atualizado
-                  sobre as últimas tendências e pesquisas em nutrição e saúde.
+                  Dr. Hiago Ramos é um Nutricionista Clínico Esportivo
+                  especializado em emagrecimento, hipertrofia, estética e
+                  performance esportiva. Ele se dedica diariamente a ajudar
+                  pessoas a atingirem seus objetivos de maneira sustentável e
+                  eficaz. Se você está buscando resultados e já tentou de tudo,
+                  ele convida você a fazer parte de seu time e permitir que ele
+                  seja seu nutricionista.
                 </Balancer>
               </p>
 
               <p className="text-sm leading-[22.4px] opacity-80">
                 <Balancer>
-                  Seu objetivo é ajudar seus pacientes a atingirem seus
-                  objetivos de saúde e bem-estar, fornecendo um atendimento
-                  personalizado e adaptando as recomendações nutricionais às
-                  necessidades individuais de cada pessoa. Hiago é um defensor
-                  da alimentação natural e acredita que a dieta deve ser baseada
-                  em alimentos integrais e frescos.
+                  Com um plano alimentar personalizado e orientações
+                  especializadas, ele está comprometido em guiá-lo para
+                  conquistar resultados reais e duradouros. Sua saúde é sua
+                  prioridade, e ele está pronto para acompanhá-lo em cada etapa
+                  do processo. Não espere mais! Junte-se a ele e descubra o
+                  poder de uma nutrição adequada.
                 </Balancer>
               </p>
             </div>
